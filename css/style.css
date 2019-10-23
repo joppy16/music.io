@@ -1,0 +1,110 @@
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFC9B5;
+  transition: color .5s;
+}
+
+
+.fa:hover {
+  color: #FFB8A0;
+}
+
+body {
+  background-color: #F9F4F7;
+}
+
+img.media-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin: none;
+  filter: none;
+}
+
+#container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #A88154;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  filter:opacity(90%);
+  transition: .5s ease;
+}
+
+#container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h5.media-font {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: #F9F4F7;
+  transition: color .5s;
+}
+
+a:hover {
+  color:#FFC9B5;
+}
+
+
+.header-img {
+  width: 100%;
+  height: auto;
+
+}
+
+.text-wrapper{
+  width: 100%;
+  position: relative;
+  margin-top: -40%;
+}
+
+.text-wrapper h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 200px;
+  font-family: 'Lobster', cursive;
+}
+
+.text-wrapper h3{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+}
+
+.tour-card-img{
+  width: 100%;
+  height: 200px;
+  border-radius: 25%;
+  border-top-right-radius: 0%;
+}
+
+#gray-background{
+  background-color: #282A28;
+}
